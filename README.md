@@ -1,6 +1,7 @@
-  <h1>Position Control System with PID</h1>
 
-   <h2>Table of Contents</h2>
+   <h1>Position Control System with PID</h1>
+
+  <h2>Table of Contents</h2>
     <ul>
         <li><a href="#project-objective">Project Objective</a></li>
         <li><a href="#how-the-project-works">How the Project Works</a></li>
@@ -25,7 +26,7 @@
         The system should be able to achieve any angular position set point.
     </p>
 
-   <h2 id="how-the-project-works">How the Project Works</h2>
+  <h2 id="how-the-project-works">How the Project Works</h2>
     <ol>
         <li>The angle value is changed by 45 degrees through Arduino code.</li>
         <li>The driver receives the signal and transfers it to the motor as a voltage from an external power source.</li>
@@ -41,7 +42,7 @@
         <li>Tuning PID parameters to achieve the best system response.</li>
     </ul>
 
-   <h2 id="materials-and-components">Materials and Components</h2>
+  <h2 id="materials-and-components">Materials and Components</h2>
     <ul>
         <li>Arduino board</li>
         <li>DC motor</li>
@@ -51,20 +52,20 @@
         <li>Wires and connectors</li>
     </ul>
 
-   <h2 id="coding">Coding</h2>
-    <p>Position_Control/Position_Control.ino</p>
+  <h2 id="coding">Coding</h2>
+    <p>The code for the project can be found <a href="Position_Control/Position_Control.ino">here</a>.</p>
 
-   <h2 id="pid-tuning">PID Tuning</h2>
+  <h2 id="pid-tuning">PID Tuning</h2>
     <p>
-        Tuning the PID parameters (K<sub>p</sub>, K<sub>i</sub>, and K<sub>d</sub>) is crucial for achieving optimal system performance. Start with the Ziegler-Nichols method or trial and error to find the best values for your system.
+        Tuning the PID parameters (K<sub>p</sub>, K<sub>i</sub>, and K<sub>d</sub>) is crucial for achieving optimal system performance. Start with the Ziegler-Nichols method or trial and error to find the best values for your system. Additionally, the System Identification Toolbox in MATLAB can be utilized to accurately determine the PID parameters.
     </p>
 
-   <h2 id="conclusion">Conclusion</h2>
+  <h2 id="conclusion">Conclusion</h2>
     <p>
         This project demonstrates the conversion of a DC motor into a servo motor using a position control system. By understanding and tuning the PID parameters, the system can achieve precise angular positions within the desired range.
     </p>
 
-   <h2 id="contact">Contact</h2>
+    <h2 id="contact">Contact</h2>
     <p>If you have any questions or need further assistance, please contact Peter Munir at <a href="mailto:peter.munir2000@gmail.com">peter.munir2000@gmail.com</a>.</p>
 </body>
 </html>
