@@ -52,7 +52,7 @@
     </ul>
 
    <h2 id="coding">Coding</h2>
-    <p> [Position control code](Position_Control/Position_Control.ino) </p>
+    <p>Position_Control/Position_Control.ino</p>
 
    <h2 id="pid-tuning">PID Tuning</h2>
     <p>
